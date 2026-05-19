@@ -12,7 +12,7 @@ const port = process.env.PORT || 1000;
 //app.use(cors());
 
 app.use(cors({
-  origin: "https://employeeminiapp.vercel.app"
+  origin: "https://mern-mini-app-livid.vercel.app/"
 }));
 //body parser
 app.use(exp.json());
